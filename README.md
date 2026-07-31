@@ -1,3 +1,8 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21719350.svg)](https://doi.org/10.5281/zenodo.21719350)
+# Spec17Tre
+
+**DOI:** https://doi.org/10.5281/zenodo.21719350
+
 <p align="center">
 <img src="images/spec17tre_banner.svg" width="100%">
 </p>
