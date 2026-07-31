@@ -201,9 +201,9 @@ Arabian Journal for Science and Engineering, 2025.
 
 # License
 
-This dataset is intended for academic and non-commercial research.
+The Spec17Tre dataset is licensed under the
+Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-Users are requested to cite the associated publication.
 
 ---
 
