@@ -16,6 +16,12 @@ keywords:
   - Deep Learning
   - gem5
   - SPEC CPU2017
+doi: 10.5281/zenodo.21719350
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21719350
+
 license: CC-BY-4.0
 version: "1.0"
 date-released: 2026-07-31
