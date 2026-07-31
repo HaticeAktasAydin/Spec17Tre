@@ -1,0 +1,5 @@
+﻿label_id,label_name,binary_label,binary_name,scenario,description,recommended_folder_name
+0,Benign,0,No_Attack,Normal execution,519.lbm execution without an injected Spectre attack.,benign
+1,Spectre_Scenario_1,1,Attack,Attack at application start,Spectre Variant-1 code is triggered as the application starts.,spectre_scenario_1
+2,Spectre_Scenario_2,1,Attack,Periodic attack,Spectre Variant-1 is triggered every 1000 cycles after an initial period; the published setup reports 1000 attacks during a 1-billion-cycle execution.,spectre_scenario_2
+3,Spectre_Scenario_3,1,Attack,Attack near application completion,Spectre Variant-1 code is triggered shortly before the application completes.,spectre_scenario_3

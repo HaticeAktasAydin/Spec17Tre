@@ -1,0 +1,16 @@
+# SHA-256 Checksums
+
+After the repository is finalized, replace the placeholders below with the actual SHA-256 hashes.
+
+<sha256>  data/processed/Spec17Tre_v1.csv
+<sha256>  data/processed/Spec17Tre_v2.csv
+<sha256>  data/raw/InOrder.zip
+<sha256>  data/raw/OutOfOrder.zip
+
+Example command (Linux/macOS):
+
+sha256sum filename
+
+Example command (Windows PowerShell):
+
+Get-FileHash filename -Algorithm SHA256

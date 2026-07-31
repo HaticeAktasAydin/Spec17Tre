@@ -1,0 +1,6 @@
+﻿dataset_version,dataset_variant,architecture,data_type,sample_count,feature_count,benign_samples,scenario_1_samples,scenario_2_samples,scenario_3_samples,source_status,notes
+v1.0,Original Spec17Tre,DerivO3CPU (Out-of-Order),Real,79,399,20,19,20,20,Published,Original dataset reported in the AJSE article.
+v1.0,Processed Spec17Tre,DerivO3CPU (Out-of-Order),Real,79,107,20,19,20,20,Published,Feature-selected version of the original dataset.
+v1.0,SMOTE Spec17Tre,Derived from DerivO3CPU dataset,Synthetic augmentation,118,107,,,,,Published,Class-level counts should be populated from the released processed file.
+v1.0,SMOTETomek Spec17Tre,Derived from DerivO3CPU dataset,Synthetic augmentation + cleaning,118,107,,,,,Published,Class-level counts should be populated from the released processed file.
+v2.0,Extended Spec17Tre,DerivO3CPU + AtomicSimpleCPU,Real,123,107,,,,,Published extension,79 original Out-of-Order samples plus 44 additional In-Order samples. Exact per-class distribution of the 44 additional samples must be read from the released dataset.

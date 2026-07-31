@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use Spec17Tre, please cite this repository."
+title: "Spec17Tre: A Benchmark Dataset for Hardware-Level Spectre Attack Detection Using gem5 Simulation"
+type: dataset
+authors:
+  - family-names: "Aktas-Aydin"
+    given-names: "Hatice"
+repository-code: "https://github.com/HaticeAktasAydin/Spec17Tre"
+abstract: >
+  Spec17Tre is a benchmark dataset for hardware-level Spectre attack detection
+  generated using the gem5 architectural simulator and the SPEC CPU2017 benchmark suite.
+keywords:
+  - Spectre
+  - Hardware Security
+  - Machine Learning
+  - Deep Learning
+  - gem5
+  - SPEC CPU2017
+license: CC-BY-4.0
+version: "1.0"
+date-released: 2026-07-31

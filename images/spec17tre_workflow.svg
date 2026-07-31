@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820">
+<style>
+.box{fill:#f6f8fa;stroke:#0969da;stroke-width:2;rx:10;ry:10}
+.txt{font-family:Arial,sans-serif;font-size:20px;text-anchor:middle;fill:#24292f}
+.title{font-family:Arial,sans-serif;font-size:28px;font-weight:bold;text-anchor:middle}
+.arrow{stroke:#57606a;stroke-width:3;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+<polygon points="0 0,8 3,0 6" fill="#57606a"/></marker></defs>
+<text x="450" y="40" class="title">Spec17Tre Dataset Generation Workflow</text>
+<rect x="220" y="70" width="460" height="48" class="box"/>
+<text x="450" y="100" class="txt">Linux Environment</text>
+<line x1="450" y1="118" x2="450" y2="142" class="arrow"/>
+<rect x="220" y="142" width="460" height="48" class="box"/>
+<text x="450" y="172" class="txt">gem5 Architectural Simulator</text>
+<line x1="450" y1="190" x2="450" y2="214" class="arrow"/>
+<rect x="220" y="214" width="460" height="48" class="box"/>
+<text x="450" y="244" class="txt">SPEC CPU2017 (519.lbm)</text>
+<line x1="450" y1="262" x2="450" y2="286" class="arrow"/>
+<rect x="220" y="286" width="460" height="48" class="box"/>
+<text x="450" y="316" class="txt">Benign / Spectre Scenarios</text>
+<line x1="450" y1="334" x2="450" y2="358" class="arrow"/>
+<rect x="220" y="358" width="460" height="48" class="box"/>
+<text x="450" y="388" class="txt">Hardware Statistics Collection (stats.txt)</text>
+<line x1="450" y1="406" x2="450" y2="430" class="arrow"/>
+<rect x="220" y="430" width="460" height="48" class="box"/>
+<text x="450" y="460" class="txt">399 Raw Hardware Features</text>
+<line x1="450" y1="478" x2="450" y2="502" class="arrow"/>
+<rect x="220" y="502" width="460" height="48" class="box"/>
+<text x="450" y="532" class="txt">Feature Selection</text>
+<line x1="450" y1="550" x2="450" y2="574" class="arrow"/>
+<rect x="220" y="574" width="460" height="48" class="box"/>
+<text x="450" y="604" class="txt">107 Selected Features</text>
+<line x1="450" y1="622" x2="450" y2="646" class="arrow"/>
+<rect x="220" y="646" width="460" height="48" class="box"/>
+<text x="450" y="676" class="txt">Machine Learning Dataset</text>
+</svg>

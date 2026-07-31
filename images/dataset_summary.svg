@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220">
+<style>
+.b{fill:#f6f8fa;stroke:#0969da;stroke-width:2;rx:8}
+.t{font-family:Arial;font-size:18px;text-anchor:middle}
+</style>
+<rect x="20" y="40" width="160" height="80" class="b"/><text x="100" y="85" class="t">399 Raw Features</text>
+<rect x="200" y="40" width="160" height="80" class="b"/><text x="280" y="85" class="t">107 Selected</text>
+<rect x="380" y="40" width="160" height="80" class="b"/><text x="460" y="85" class="t">4 Classes</text>
+<rect x="560" y="40" width="160" height="80" class="b"/><text x="640" y="85" class="t">gem5 + x86</text>
+<rect x="740" y="40" width="140" height="80" class="b"/><text x="810" y="85" class="t">SPEC2017</text>
+</svg>

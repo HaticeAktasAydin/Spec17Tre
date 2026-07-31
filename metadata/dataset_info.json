@@ -1,0 +1,28 @@
+{
+  "dataset_name": "Spec17Tre",
+  "version": "2.0.0",
+  "description": "Benchmark dataset for hardware-level Spectre attack detection generated using the gem5 architectural simulator.",
+  "authors": [
+    "Hatice Aktas-Aydin"
+  ],
+  "paper": "Spec17Tre: A New Dataset in Hardware Security and Using Deep Learning for Detecting Spectre Attacks (Arabian Journal for Science and Engineering, 2025)",
+  "simulator": "gem5",
+  "operating_system": "Linux",
+  "isa": "x86",
+  "benchmark": "SPEC CPU2017 - 519.lbm",
+  "architectures": [
+    "InOrder",
+    "OutOfOrder"
+  ],
+  "attack_classes": [
+    "Benign",
+    "Spectre Variant-1",
+    "Spectre Variant-2",
+    "Spectre Variant-3"
+  ],
+  "raw_features": 399,
+  "selected_features": 107,
+  "license": "To be selected by repository owner",
+  "citation_required": true,
+  "repository": "https://github.com/<username>/Spec17Tre"
+}
